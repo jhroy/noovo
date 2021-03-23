@@ -14,7 +14,7 @@ J'utilisais ensuite un autre script ([**pdf-tabula.py**](pdf-tabula.py)) pour t�
 
 Le fichier complet, propre et dans lequel j'ai identifié les émissions d'information et les bulletins de nouvelles est ici&nbsp;: [**numeris-2010-2020.csv**](numeris-2010-2020.csv). C'est ce fichier qui a servi à réaliser ce graphique&nbsp;:
 
-[!](figure1.png)
+![](figure1.png)
 
 ### Étape 2 - Données de Facebook et d'Instagram
 
