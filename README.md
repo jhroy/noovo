@@ -18,6 +18,32 @@ Le fichier complet, propre et dans lequel j'ai identifié les émissions d'infor
 
 ### Étape 2 - Données de Facebook et d'Instagram
 
-Pour explorer l'univers de la vidéo d'information pour plateformes mobiles, je suis allé chercher des données sur [CrowdTangle](https://www.crowdtangle.com/).
+Pour explorer l'univers de la vidéo d'information pour plateformes mobiles, je suis allé chercher des données dans [CrowdTangle](https://www.crowdtangle.com/).
 
-Pour Facebook, j'ai procédé en téléchargeant les 300&nbsp;000 publications ayant obtenu le plus grand nombre d'interactions à chaque mois de l'année 2020, obtenant ainsi 3,6 millions de publications (*posts*) au final pour l'année. J'ai fait l'exercice avec les pages majoritairement administrées au Canada, puis avec celles qui sont majoritairement administrées en France. Par exemple, pour recueilir les données 'expression, entrée dans la section *Search* de CrowdTangle, ressemble à ceci
+Pour Facebook, j'ai procédé en téléchargeant les 300&nbsp;000 publications ayant obtenu le plus grand nombre d'interactions à chaque mois de l'année 2020, obtenant ainsi 3,6 millions de publications (*posts*) au final pour l'année. J'ai fait l'exercice avec les pages majoritairement administrées au Canada, puis avec celles qui sont majoritairement administrées en France. Par exemple, pour recueilir les données françaises pour le mois de décembre 2020, l'expression entrée dans la section *Search* de CrowdTangle, est celle-ci:
+
+```https://apps.crowdtangle.com/search/results?includedCountries=FR&customStartDate=2020-12-01T00:00:00&customEndDate=2021-01-01T00:00:00&customChartStartDate=2020-12-01T00:00:00&customChartEndDate=2021-01-01T00:00:00&platform=facebook&postTypes=&producerTypes=3&q=&sortBy=score&sortOrder=desc&timeframe=custom```
+
+![](crowdtangle-search.png)
+
+Pour un autre projet de recherche, je ne m'intéresse qu'aux contenus publiés en français. J'ai donc passé mes 7,2 millions de publications à travers un premier filtre, celui de la langue. Cela m'a donné **621&nbsp;509** publications en français au Canada et **2&nbsp;779&nbsp;406** en France.
+
+Le deuxième filtre a été celui des contenus vidéo. Dans une page Facebook, chaque publication peut être de 10 types différents. Voici la répartition de mon échantillon en fonction du pays. Les types en caractères gras sont ceux que j'ai conservés parce qu'ils s'agit de contenu vidéo.
+
+| Type        | France (nb de *posts*)        | Canada  (nb de *posts*)  |
+| ------------- |-------------:| -----:|
+| Photo | 1&nbsp;491&nbsp;653 | 258&nbsp;202 |
+| Link | 733&nbsp;926 | 245&nbsp;038 |
+| **Native Video** | 427&nbsp;665 | 67&nbsp;241 |
+| **Live Video Complete** | 55&nbsp;450 | 15&nbsp;395 |
+| Status | 50&nbsp;414 | 31&nbsp;019 |
+| **YouTube** | 17&nbsp;557 | 4&nbsp;065 |
+| **Video** | 2&nbsp;319 | 375 |
+| **Live Video Scheduled** | 420 | 174 |
+| Album | 1 | 0 |
+| **Live Video** | 1 | 0 |
+| *Total de vidéos* | *503&nbsp;412* | *87&nbsp;250*|
+
+
+
+Status (nb)	Status (interactions)	Video (nb)	Video (interactions)	Video (videovues)	Video (videovuestotales)	Video (videovuestotalesallcrosspost)	Native Video (nb)	Native Video (interactions)	Native Video (videovues)	Native Video (videovuestotales)	Native Video (videovuestotalesallcrosspost)	Live Video Complete (nb)	Live Video Complete (interactions)	Live Video Complete (videovues)	Live Video Complete (videovuestotales)	Live Video Complete (videovuestotalesallcrosspost)	Live Video Scheduled (nb)	Live Video Scheduled (interactions)	Live Video Scheduled (videovues)	Live Video Scheduled (videovuestotales)	Live Video Scheduled (videovuestotalesallcrosspost)	YouTube (nb)	YouTube (interactions)	YouTube (videovues)	YouTube (videovuestotales)
