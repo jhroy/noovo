@@ -46,7 +46,16 @@ Le deuxième filtre a été celui des contenus vidéo. Dans une page Facebook, c
 | **Live Video** | 1 | 0 |
 | *Total de publications vidéos* | *503&nbsp;412* | *87&nbsp;250*|
 
-Il fallait enfin faire passer le demi-million de publications qui restent par un troisième filtre qui ne conservait que celles de pages appartenant à des médias. J'ai utilisé les mêmes critères que ceux dont je me suis servi à l'automne 2020 et les ai appliqués également à la France.
+Dans le texte publié dans *La Conversation*, je mentionne aussi le nombre de vues que ces vidéos ont obtenu. Je n'ai considéré que [ce que CrowdTangle définit comme *«&nbsp;Post views&nbsp;»*](https://help.crowdtangle.com/en/articles/3213537-crowdtangle-codebook), c'est-à-dire des vues qui ont été enregistrées uniquement sur la page Facebook en question. Je me suis rendu compte que les deux autres paramètres proposés par CT (*Total Views* et *Total Views for all Crossposts*) peuvent inclure des vues pour des vidéos virales produites par d'autres pages et republiées par les médias. Il serait trompeur d'attribuer aux médias qui ne font que republier ces vidéos des vues qui ont été enregistrées un peu partout dans Facebook.
 
-Dans le texte publié dans *La Conversation*, je mentionne aussi le nombre de vues que c'est vidéos ont obtenues. Je n'ai considéré que [ce que CrowdTangle définit comme *Post views*](https://help.crowdtangle.com/en/articles/3213537-crowdtangle-codebook), c'est-à-dire des vues qui ont été enregistrées uniquement sur la page Facebook en question. Je me suis rendu compte que les deux autres paramètres proposés par CT (*Total Views* et *Total Views for all Crossposts*) peuvent inclure des vues pour des vidéos virales produites par d'autres pages et republiées par les médias. Il serait trompeur d'attribuer aux médias qui ne font que republier ces vidéos des vues qui ont été enregistrées un peu partout dans Facebook.
+J'ai classé l'ensemble des publications en fonction du nombre de vidéos publiées. Puis, dans cette liste, j'ai identifié les pages appartenant à des médias en utilisant [les mêmes critères que ceux dont je me suis servi à l'automne 2020](https://github.com/jhroy/facebook-canada/), autant pour le Canada que pour la France.
 
+Au final, j'avais, pour chaque pays, un top-25 des médias qui ont publié le plus de vidéos sur leur page Facebook&nbsp;:
+
+![](figureFB-CA.png)
+
+![](figureFB-FR.png)
+
+#### Étape 2.2. - Instagram
+
+Pour Instagram, j'ai procédé
