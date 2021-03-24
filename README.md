@@ -20,6 +20,8 @@ Le fichier complet, propre et dans lequel j'ai identifié les émissions d'infor
 
 Pour explorer l'univers de la vidéo d'information pour plateformes mobiles, je suis allé chercher des données dans [CrowdTangle](https://www.crowdtangle.com/).
 
+#### Étape 2.1 - Facebook
+
 Pour Facebook, j'ai procédé en téléchargeant les 300&nbsp;000 publications ayant obtenu le plus grand nombre d'interactions à chaque mois de l'année 2020, obtenant ainsi 3,6 millions de publications (*posts*) au final pour l'année. J'ai fait l'exercice avec les pages majoritairement administrées au Canada, puis avec celles qui sont majoritairement administrées en France. Par exemple, pour recueilir les données françaises pour le mois de décembre 2020, l'expression entrée dans la section *Search* de CrowdTangle, est celle-ci:
 
 ```https://apps.crowdtangle.com/search/results?includedCountries=FR&customStartDate=2020-12-01T00:00:00&customEndDate=2021-01-01T00:00:00&customChartStartDate=2020-12-01T00:00:00&customChartEndDate=2021-01-01T00:00:00&platform=facebook&postTypes=&producerTypes=3&q=&sortBy=score&sortOrder=desc&timeframe=custom```
@@ -42,8 +44,9 @@ Le deuxième filtre a été celui des contenus vidéo. Dans une page Facebook, c
 | **Live Video Scheduled** | 420 | 174 |
 | Album | 1 | 0 |
 | **Live Video** | 1 | 0 |
-| *Total de vidéos* | *503&nbsp;412* | *87&nbsp;250*|
+| *Total de publications vidéos* | *503&nbsp;412* | *87&nbsp;250*|
 
+Il fallait enfin faire passer le demi-million de publications qui restent par un troisième filtre qui ne conservait que celles de pages appartenant à des médias. J'ai utilisé les mêmes critères que ceux dont je me suis servi à l'automne 2020 et les ai appliqués également à la France.
 
+Dans le texte publié dans *La Conversation*, je mentionne aussi le nombre de vues que c'est vidéos ont obtenues. Je n'ai considéré que [ce que CrowdTangle définit comme *Post views*](https://help.crowdtangle.com/en/articles/3213537-crowdtangle-codebook), c'est-à-dire des vues qui ont été enregistrées uniquement sur la page Facebook en question. Je me suis rendu compte que les deux autres paramètres proposés par CT (*Total Views* et *Total Views for all Crossposts*) peuvent inclure des vues pour des vidéos virales produites par d'autres pages et republiées par les médias. Il serait trompeur d'attribuer aux médias qui ne font que republier ces vidéos des vues qui ont été enregistrées un peu partout dans Facebook.
 
-Status (nb)	Status (interactions)	Video (nb)	Video (interactions)	Video (videovues)	Video (videovuestotales)	Video (videovuestotalesallcrosspost)	Native Video (nb)	Native Video (interactions)	Native Video (videovues)	Native Video (videovuestotales)	Native Video (videovuestotalesallcrosspost)	Live Video Complete (nb)	Live Video Complete (interactions)	Live Video Complete (videovues)	Live Video Complete (videovuestotales)	Live Video Complete (videovuestotalesallcrosspost)	Live Video Scheduled (nb)	Live Video Scheduled (interactions)	Live Video Scheduled (videovues)	Live Video Scheduled (videovuestotales)	Live Video Scheduled (videovuestotalesallcrosspost)	YouTube (nb)	YouTube (interactions)	YouTube (videovues)	YouTube (videovuestotales)
