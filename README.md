@@ -26,6 +26,8 @@ Pour Facebook, j'ai procédé en téléchargeant les 300&nbsp;000 publications a
 
 ```https://apps.crowdtangle.com/search/results?includedCountries=FR&customStartDate=2020-12-01T00:00:00&customEndDate=2021-01-01T00:00:00&customChartStartDate=2020-12-01T00:00:00&customChartEndDate=2021-01-01T00:00:00&platform=facebook&postTypes=&producerTypes=3&q=&sortBy=score&sortOrder=desc&timeframe=custom```
 
+Voici l'interface dans laquelle on peut préciser combien de publications on souhaite récupérer pour chaque requête.
+
 ![](crowdtangle-search.png)
 
 Pour un autre projet de recherche, je ne m'intéresse qu'aux contenus publiés en français. J'ai donc passé mes 7,2 millions de publications à travers un premier filtre, celui de la langue. Cela m'a donné **621&nbsp;509** publications en français au Canada et **2&nbsp;779&nbsp;406** en France.
@@ -58,4 +60,13 @@ Au final, j'avais, pour chaque pays, un top-25 des médias qui ont publié le pl
 
 #### Étape 2.2. - Instagram
 
-Pour Instagram, j'ai procédé
+Pour Instagram, j'ai procédé différement. J'ai créé deux listes de médias&nbsp;: une liste de **34&nbsp;médias québécois** et une autre de **136&nbsp;médias français**. J'ai ensuite demandé à CrowdTangle de me donner toutes les publications de ces médias au cours de l'année 2020. Avec ces données, j'ai réalisé les tableaux suivants, qui donnent, pour chaque média, le nombre et le type de publications qu'il a réalisées dans Instagram, ainsi qu'une compilation du nombre de vidéos et de segments IGTV diffusés par chacun et le nombre de vues que ces publications ont obtenues&nbsp;:
+
+* Québec&nbsp;: [**instagram-mediasQC-2020.csv**](instagram-mediasQC-2020.csv)
+* France&nbsp;: [**instagram-mediasFR-2020.csv**](instagram-mediasFR-2020.csv)
+
+Ces tableaux ont servi à la confection des graphiques ci-dessous&nbsp;:
+
+![](figureInsta-CA.png)
+
+![](figureInsta-FR.png)
