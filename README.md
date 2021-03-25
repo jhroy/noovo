@@ -8,7 +8,7 @@ Triple analyse de données pour un article dans [*La Conversation*](). J'y exami
 
 Il fallait donc aller chercher tous les fichiers que je n'avais pas déjà moissonnés en 2014. Comme le site de Numeris est conçu pour compliquer la vie des moissonneurs de données, j'ai commencé par copier-coller le HTML qui contient les URL vers tous les documents PDF contenant les palmarès hebdomadaires d'écoute&nbsp;: [**numeris.html**](numeris.html)
 
-Ce court script ([**pfds.py**](pfds.py)) a ensuite permis de recueillir les URL de tous les documents et de les consigner dans un fichier CSV ([**numeris.csv**](numeris.csv)).
+Ce court script ([**pdfs.py**](pdfs.py)) a ensuite permis de recueillir les URL de tous les documents et de les consigner dans un fichier CSV ([**numeris.csv**](numeris.csv)).
 
 J'ai ensuite utilisé un autre script ([**pdf-tabula.py**](pdf-tabula.py)) pour télécharger les fichiers PDF du site de Numeris. Le script y effectue au passage une reconnaissance optique de caractères à l'aide de la bibliothèque [tabula-py](https://pypi.org/project/tabula-py/). Tabula est également [un logiciel](https://tabula.technology/), fort utile, qui permet de transformer en CSV des tableaux se trouvant dans des documents PDF. Et c'est ainsi que chaque ligne de chaque palmarès a été transformée en une ligne dans un grand fichier CSV... que j'ai cependant dû nettoyer et compléter, car les données de Numéris peuvent être mal classées (parfois, c'est la version anglaise du palmarès, et donc pour l'écoute nationale pan-canadienne, qui est accessible sur la version française du site, ou vice-versa). Par ailleurs, une semaine est introuvable (celle du 20 au 26 février 2012)... C'est cependant le seul trou dans les données pour la décennie.
 
