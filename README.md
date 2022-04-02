@@ -70,3 +70,7 @@ Ces tableaux ont servi à la confection des graphiques ci-dessous&nbsp;:
 ![](figureInsta-CA.png)
 
 ![](figureInsta-FR.png)
+
+<hr>
+
+Consultez aussi [l'analyse réalisée en 2022 comparant les contenus vidéos de Noovo.info sur Facebook, Instagram et TikTok avec ceux de 18 autres médias québécois](https://github.com/jhroy/noovo.info_1an).
